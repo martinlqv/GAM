@@ -27,7 +27,7 @@ auto_data$origin <- as.factor(auto_data$origin)
 auto_data$cylinders <- as.factor(auto_data$cylinders)
 #str(auto_data)
 ```
-A Generalised Additive Model (GAM) has been fit to the Auto data to predict mpg (fuel consumption per mile). The is split in to training data (80%) and training data (20%). For this the package `caret` is used to make the the response variable be evenly distributed between the two groups.
+A Generalised Additive Model (GAM) has been fit to the Auto data to predict mpg (fuel consumption per mile). The is split in to training data (80%) and testing data (20%). For this the package `caret` is used to make the the response variable be evenly distributed between the two groups.
 
 #### Auto data
 - **Mpg:** Miles per gallon. A numerical variable indicating the distance travelled per gallon of fuel burned.
